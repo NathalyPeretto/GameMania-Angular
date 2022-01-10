@@ -1,0 +1,52 @@
+/*PC Gamer*/
+
+
+.container-grid .gamer {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid;
+
+}
+
+.pcgamer {
+    height: 40px;
+    width: 100%px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+
+
+.grupo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    margin: 70px ;
+    display: flex;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    border: none !important;
+    cursor: pointer;
+    
+}
+.card :hover {
+    color: #cddc39;
+}    

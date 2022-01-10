@@ -1,0 +1,100 @@
+
+
+.pcgamer {
+    height: 40px;
+    width: 100%px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+
+/*Monitor*/
+
+body {
+    font-family: 'Play', sans-serif;
+}
+
+.container-body {
+    background: #fff !important;
+    border: none;
+    border-radius: none;
+    
+}
+
+.abc {
+    padding-left: 30px
+}
+
+.pqr {
+    padding-right: 70px;
+    padding-top: 14px
+}
+
+
+
+.fa-star {
+    color: #cddc39;
+}
+
+li {
+    list-style: none;
+    line-height: 50px;
+    color: black;
+    font-family: 'Play', sans-serif;   
+}
+
+.col-md-2.myt.des a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Play', sans-serif; 
+
+}
+
+.col-md-2  {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;    
+}
+
+
+.col-md-2.myt .btn .btn-outline-warning a {
+    background-color: #cddc39;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+     
+}
+
+
+.des::after {
+    content: '.';
+    font-size: 0;
+    display: block;
+    border-radius: 20px;
+    height: 6px;
+    width: 55%;
+    background: #cddc39;
+    margin: 14px 0
+}
+
+.r4 {
+    padding-left: 25px;
+    display: none;
+}
+
+.btn-outline-warning {
+    border-radius: 0;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    width: 70%
+}
+

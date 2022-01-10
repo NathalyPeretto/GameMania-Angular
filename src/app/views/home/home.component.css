@@ -1,0 +1,452 @@
+
+
+/* CARROSSEL*/
+
+.container-fluid { padding: 0 !important; }
+
+.carousel-item img {
+    height: 500px
+}
+
+
+
+/* segundo banner*/
+
+.segundo-banner {
+    background-image: url(~/src/assets/novembro.gif);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicao-segundo {
+    height: 100%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: flex-end;
+
+}
+
+.item-texto a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 12px;
+    align-items: flex-end;
+    background-color: #cddc39;
+    padding: 15px;
+    border-radius: 5px;      
+}
+.item-texto a:hover {
+    color: black;
+    text-decoration: auto;
+}
+
+.item-texto {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+/*Remote Work*/
+
+.container-grid .remote {
+   
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid;
+}
+
+.barra {
+   height: 40px; 
+   display: flex;
+   background-color: black;
+   font-family: 'Play', sans-serif;
+   font-size: 20px;
+   justify-content: center;
+   color: white;
+   margin: 10px;
+   align-items: center;  
+}
+
+.grupo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    margin: 70px ;
+    display: flex;
+    text-align: center;
+   font-family: 'Play', sans-serif;
+    font-size: 16px;
+    justify-content: center; 
+    border: none !important;
+    cursor: pointer;   
+}
+
+.card :hover {
+    color: #cddc39;
+}   
+
+/*Time Mania*/
+
+.timeMania-banner {
+    background-image: url(~/src/assets/timegm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicao-time { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.texto-time {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    align-items: center;
+    background-color: #C4C4C494;   
+}
+
+.botaotime a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 12px;
+    
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;   
+    line-height: 1.5
+}
+
+.posicao-botaotime {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+}
+
+.botaotime a:hover {
+    color: white;
+    text-decoration: auto;
+}
+
+
+/*renderização*/
+
+@media screen and ( max-width: 1200px){
+    .container-grid {
+        width: 90%;
+    }
+
+
+.menu {
+    width: flex;
+}
+
+.menu a {
+    font-size: 16px; 
+}
+ 
+@media screen and ( max-width: 768px) {
+    .barras { 
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        top:0;
+        right: 65px;
+        z-index: 1;
+    }
+
+.menu a {
+    text-align: center;
+    padding: 14px;
+} 
+
+
+
+.posicionamento-header{
+    position: relative;
+}
+
+/* CARROSSEL*/
+
+.container-fluid { padding: 0 !important;
+                    z-index: 2;
+}
+
+
+
+/* segundo banner*/
+
+.segundo-banner {
+    background-image: url(~/src/assets/novembro.gif);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicao-segundo {
+    height: 100%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: flex-end;
+
+} 
+
+/*Remote Work*/
+
+.container-grid .remote {
+   
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid;
+}
+
+.barra {
+   height: 40px; 
+   display: flex;
+   background-color: black;
+   font-family: 'Play', sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   color: white;
+   margin: 10px;
+   align-items: center;  
+}
+
+.grupo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    margin: 40px ;
+    display: flex;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    justify-content: center; 
+    border: none !important;
+    cursor: pointer;   
+}
+
+.card :hover {
+    color: #cddc39;
+}   
+
+/*Time Mania*/
+
+.timeMania-banner {
+    background-image: url(~/src/assets/timegm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicao-time { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.texto-time {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    align-items: center;
+    background-color: #C4C4C494;   
+}
+
+.botaotime a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 12px;
+    
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;   
+    line-height: 1.5
+}
+
+.posicao-botaotime {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+/* Rodapé */
+
+footer {
+    background: #3a3a3a;
+    color: #fff;
+    font-size: 14px;
+}
+footer .footer-top {
+    background: #4e4e4e;
+    padding: 50px 0px 20px;
+}
+footer .endereco p {
+    font-size: 14px;
+    color: #ddd;
+    font-family: 'Play', sans-serif;
+}
+
+.p {
+    font-family: 'Play', sans-serif;
+}
+
+h3 {
+    font-family: 'Play', sans-serif;
+}
+
+footer .redes-sociais a {
+    font-size: 17px;
+    display: inline-block;
+    background: #28251f;
+    color: #fff;
+    line-height: 1;
+    padding: 9px 0;
+    margin-right: 5px;
+    border-radius: 100%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.4s;
+    font-family: 'Play', sans-serif;
+}
+footer .redes-sociais a:hover {
+    background:#cddc39;
+}
+h4 {
+    font-size: 16px;
+    color:white;
+    padding-bottom: 12px;
+    font-family: 'Play', sans-serif;
+}
+.footer-menus {
+    margin-bottom: 30px;
+
+}
+.footer-menus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-menus ul li {
+    margin-bottom: 10px;
+}
+.footer-menus ul i {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 3px;
+}
+.footer-menus ul a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+}
+.footer-menus ul a:hover {
+    color: #cddc39;
+}
+.newsletter form {
+    margin-top: 30px;
+    background: #3a3a3a;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #3a3a3a;
+}
+.newsletter form input[type="email"] {
+    border: 0;
+    padding: 5px;
+    background: #3a3a3a;
+    color: #fff;
+}
+.newsletter form input[type="email"]:focus {
+    outline: none;
+}
+.newsletter form input[type="submit"] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    background: white;
+    color: #000;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.newsletter form input[type="submit"]:hover {
+    background: #d5e440;
+}
+.footer-final {
+    padding: 20px 0px;
+    font-family: 'Play', sans-serif;
+}
+
+.footer-final a {
+    color: #cddc39;
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    text-decoration: auto;
+}
+
+.footer-final a:hover {
+    color: #cddc39;
+    text-decoration: auto;
+}
+}
+}

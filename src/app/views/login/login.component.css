@@ -1,0 +1,42 @@
+.campo-label {
+
+    display: flex;
+    flex-direction: column;
+}
+input {
+    text-indent: 5px;
+}
+
+input, button {
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+
+button {
+   background-color: #3a3a3a;
+    color: white;
+    font-size: 25px;
+}
+
+button:hover {
+    cursor:pointer
+}
+
+p {
+    text-align: center;
+}
+
+.container-login {
+    height: 600px;
+  
+    background-image: url(~/src/assets/login.jpg);
+    display: flex;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+}
