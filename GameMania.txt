@@ -1,1 +1,31 @@
-Gamae Mania Angular
+Gamae Mania Angular - UC9 - UC10
+
+SA1 
+At. online 1
+At. encontro remoto 1
+At. encontro remoto 2
+At. online 3
+At. online 2
+
+SA2
+At. online 1 - index, mais 4 paginas
+At. online 2 - aprimorar design
+At. online 3
+At. encontro remoto 1
+At. encontro remoto 2
+At. encontro remoto 3 - aplicar JS no index 
+At. encontro remoto 4
+At. encontro remoto 5 - apresentação Site Game mania 
+
+SA3
+At. encontro remoto 1 - Criando Angular 28/10
+At. encontro remoto 2 - Formulário 04/11
+At. online 1
+At. online 2 - cenário, ator, finalidade....
+
+UC10
+At. encontro remoto 1 - interção API's - crud - notícias
+At. encontro remoto 2 - interação API's - mensagem no login
+
+
+
